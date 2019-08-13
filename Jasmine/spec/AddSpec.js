@@ -8,4 +8,7 @@ describe("Add", function(){
 	it("should return 9 when adding 4 + 5",function(){
 		expect(add(4,5)).toEqual(9);
 	});
+	it("should add multiple arguments. Returns 29 when adding 8 + 9 + 4 + 5 + 3.", function(){
+		expect(add(8,9,4,5,3)).toEqual(29);
+	});
 });
