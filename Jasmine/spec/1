@@ -1,9 +1,0 @@
-function helloworld(){
-	return ("Hello World.");
-}
-
-describe("Hello World",function(){
-	it("should return Hello World",function(){
-		expect(helloworld()).toEqual('Hello World.');
-	});
-});
