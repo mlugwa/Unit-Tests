@@ -8,4 +8,7 @@ describe("Add", function(){
 	it("should be able to handle adding multiple arguments.",function(){
 		expect(add(1,2,3,4)).toEqual(10);
 	});
+	it("should add two positive numbers.",function(){
+		expect(add(1,5)).toEqual(6);
+	});
 });
