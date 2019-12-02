@@ -1,3 +1,5 @@
+var add = require('../src/add.js');
+
 describe("Add", function(){
 	it("should add two numbers.",function(){
 		expect(add(0,0)).toEqual(0);

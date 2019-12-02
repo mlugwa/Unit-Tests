@@ -8,3 +8,5 @@ function multiply()
 
 	return (multi);
 }
+
+module.exports = multiply;

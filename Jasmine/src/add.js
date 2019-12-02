@@ -7,3 +7,5 @@ function add()
 		sum = sum + arguments[i++];
 	return (sum);
 }
+
+module.exports = add;

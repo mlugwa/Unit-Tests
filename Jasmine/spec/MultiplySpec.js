@@ -1,3 +1,5 @@
+var multiply = require('../src/multiply.js');
+
 describe("Multiply",function(){
 	it("should multiply two digits",function(){
 		expect(multiply(2,6)).toEqual(12);
